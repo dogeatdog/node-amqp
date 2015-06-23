@@ -1,7 +1,7 @@
-{ "name" : "amqp"
-, "description" : "AMQP driver for node"
+{ "name" : "dogeatdog-amqp"
+, "description" : "AMQP driver for node with a fix for econnreset"
 , "keywords" : [ "amqp" ]
-, "version" : "0.2.4"
+, "version" : "0.2.4.dogeatdog"
 , "author" : { "name" : "Ryan Dahl" }
 , "contributors" :
   [ { "name" : "Vasili Sviridov" }
@@ -19,13 +19,14 @@
   , { "name" : "David Barshow" }
   , { "name" : "Jason Pincin" }
   , { "name" : "Carl Hörberg" }
+  , { "name" : "Dennis Meerveld" }
   ]
 , "repository" :
   { "type" : "git"
-  , "url" : "git://github.com/postwait/node-amqp.git"
+  , "url" : "git://github.com/dogeatdog/node-amqp.git"
   }
 , "bugs" :
-  { "url" : "http://github.com/postwait/node-amqp/issues"
+  { "url" : "http://github.com/dogeatdog/node-amqp/issues"
   }
 , "main" : "./amqp"
 , "engines" : { "node" : "0.4 || 0.6 || 0.8 || 0.9 || 0.10 || 0.11 || 0.12" }
