@@ -1,7 +1,7 @@
 { "name" : "dogeatdog-amqp"
 , "description" : "AMQP driver for node with a fix for econnreset"
 , "keywords" : [ "amqp" ]
-, "version" : "0.2.4.dogeatdog"
+, "version" : "1.0.1"
 , "author" : { "name" : "Ryan Dahl" }
 , "contributors" :
   [ { "name" : "Vasili Sviridov" }
